@@ -1,0 +1,31 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active svg {
+  fill: #028c6a;
+  stroke: #028c6a;
+}
+
+#homenav a.active {
+  border-bottom: 1px solid #028c6a;
+}
+
+#actionnav a.active {
+    border-bottom: 1px solid #028c6a;
+    transition: 500ms ease-in-out;
+}
+#profile-edit a.active {
+    border-bottom: 1px solid #028c6a;
+    transition: 500ms ease-in-out;
+}
+
+.folder {
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 11%, 46% 11%, 46% 0);
+}
+
+.line-height {
+  line-height: 40px;
+}
